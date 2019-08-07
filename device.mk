@@ -38,5 +38,9 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
 	$(DEVICE_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/clover
+TARGET_KERNEL_CONFIG := clover-perf_defconfig
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/clover/clover-vendor.mk)
