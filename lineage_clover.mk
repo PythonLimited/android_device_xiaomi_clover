@@ -22,22 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from wayne device
+# Inherit from clover device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := wayne
+PRODUCT_DEVICE := clover
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_wayne
+PRODUCT_NAME := lineage_clover
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := wayne
+TARGET_VENDOR_PRODUCT_NAME := clover
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="wayne-user 8.1.0 OPM1.171019.011 V10.0.3.0.ODCCNFH release-keys"
+    PRIVATE_BUILD_DESC="clover-user 8.1.0 OPM1.171019.011 V10.0.3.0.ODCCNFH release-keys"
 
-BUILD_FINGERPRINT := xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V10.0.3.0.ODCCNFH:user/release-keys
+BUILD_FINGERPRINT := xiaomi/clover/clover:8.1.0/OPM1.171019.011/V10.0.3.0.ODCCNFH:user/release-keys
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model

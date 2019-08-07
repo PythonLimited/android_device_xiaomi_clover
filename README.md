@@ -1,20 +1,26 @@
-This repository contains device configuration for Xiaomi MI 6X (wayne)
+The MI PAD 4/Mi Pad 4 Plus family (codenamed _"clover"_) are high-end mid-range tablets from Xiaomi.
 
-Basic   | Spec Sheet
--------:|:----------
-CPU     | Quad-core 1.84 GHz Qualcomm Kryo 260 LP
-CPU     | Quad-core 2.20 GHz Qualcomm Kryo 260 HP
-Chipset | Qualcomm Snapdragon 660, SDM660
-GPU     | Adreno 512
-ROM     | 32/64/128GB
-RAM     | 3/4/6GB
-Android | 8.1.0
-Battery | 3010 mAh
-Display | 1080x2160 pixels, 5.99
-Rear Camera  | 12MP+20MP, AI Dual Camera
-Front Camera | 20 MP
+Xiaomi MI PAD 4 was announced and released in June 2018.
 
-![Xiaomi MI 6X](https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a4842f9afc615164af83c2088a412fc0.jpg "Xiaomi MI 6X")
+## Device specifications
+
+| Device       | Xiaomi MI PAD 4 / Xiaomi MI PAD 4 PLUS          |
+| -----------: | :---------------------------------------------- |
+| SoC          | Qualcomm SDM660 Snapdragon 660                  |
+| CPU          | 8x Qualcomm® Kryo™ 260 up to 2.2GHz             |
+| GPU          | Adreno 512                                      |
+| Memory       | 3GB / 4GM RAM (LPDDR4X)                         |
+| Shipped Android version | 8.1.0                           	 |
+| Storage      | 64GB eMMC 5.1 flash storage                     |
+| Battery      | Non-removable Li-Po 6000 mAh                    |
+| Dimensions   | 200.2 x 120.3 x 7.9 mm                          |
+| Display      | 1920 x 1200 (16:10), 8.0 inch  or 10.1 inch     |
+| Rear camera | 13MP, f/2.0 1080p 30 fps video|
+| Front camera | 5MP, f/2.0|
+
+## Device picture
+
+![Xiaomi MI PAD 4](http://i8.mifile.cn/a1/pms_1529843020.73617168!560x560.jpg)
 
 ## Copyright
 

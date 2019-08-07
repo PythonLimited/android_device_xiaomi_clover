@@ -21,8 +21,8 @@
 # definition file).
 #
 
-# Inherit from wayne-common
-$(call inherit-product, device/xiaomi/wayne-common/wayne.mk)
+# Inherit from sdm660-common
+$(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/wayne/wayne-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/clover/clover-vendor.mk)

@@ -22,15 +22,15 @@
 # definition file).
 #
 
-# Inherit from wayne-common
--include device/xiaomi/wayne-common/BoardConfigCommon.mk
+# Inherit from sdm660-common
+-include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/wayne
+DEVICE_PATH := device/xiaomi/clover
 
-TARGET_LIBINIT_WAYNE_DEFINES_FILE := $(DEVICE_PATH)/init/init_wayne.cpp
+TARGET_LIBINIT_SDM660_DEFINES_FIL := $(DEVICE_PATH)/init/init_clover.cpp
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
--include vendor/xiaomi/wayne/BoardConfigVendor.mk
+-include vendor/xiaomi/clover/BoardConfigVendor.mk

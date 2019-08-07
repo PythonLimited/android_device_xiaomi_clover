@@ -17,9 +17,9 @@
 
 set -e
 
-export DEVICE=wayne
+export DEVICE=clover
 export VENDOR=xiaomi
 export INITIAL_COPYRIGHT_YEAR=2018
-export DEVICE_COMMON=wayne-common
+export DEVICE_COMMON=sdm660-common
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
