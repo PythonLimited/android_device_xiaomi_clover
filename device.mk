@@ -24,5 +24,9 @@
 # Inherit from sdm660-common
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
+# Media
+PRODUCT_COPY_FILES += \
+	$(DEVICE_PATH)/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/clover/clover-vendor.mk)
